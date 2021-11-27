@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Mirror</title>
+  <meta charset="UTF-8">
+  <link href="main.css" rel ="stylesheet" >
+
+
+</head>
+
+
+<body onload="ultimate()"  BGCOLOR = black>
+  <div id="clockContainer">
+
+         <div id="hour"></div>
+         <div id="minute"></div>
+         <div id ="second"></div>
+  </div>
+  <div class = "calendar">
+              <h2 id="dte"></h2>
+
+
+
+
+             <div class="prev" onclick="movDate('prev')">
+                 <span>&#10094</span>
+             </div>
+
+             <div class="headers">
+
+                  <h2 id="dte"></h2>
+
+                 <p1 id="time"></p1>
+
+             </div>
+
+             <div class = "next" onclick="movDate('next')">
+                 <span>&#10095</span>
+             </div>
+
+
+             <p class = "year"></p>
+
+
+
+      <div class = "fcalendar">
+            <div class = "weekends">
+                <div >SUN</div>
+                <div >MON</div>
+                <div >TUE</div>
+                <div >WED</div>
+                <div >THU</div>
+                <div >FRI</div>
+                <div >SAT</div>
+
+            </div>
+
+            <div class="days">
+            </div>
+
+             <div class="eventschedule">
+             </div>
+
+             <input type="submit" onclick="save()" value="S">
+            <!-- <input type="submit" value="AV"  /> -->
+
+      </div>
+
+  </div>
+
+
+  <div class="eelspots">
+
+       <div class="hotspotz">
+
+       </div>
+
+  </div>
+
+
+  <div class="recentmails"></div>
+  <div class="rhead">Recent Mails</div>
+
+  <h1 class="ml12"> CURRENT UPDATES!</h1>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+     <!-- <img src="images/logo.svg" alt = '' class ='logo' > -->
+ <script type="text/javascript" src="/eel.js"></script>
+ <script src="index.js"></script>
+
+</body>
+</html>
